@@ -14,15 +14,22 @@
 // Objective 2: Kill Ogre
 // Map: http://flockdraw.com/gallery/view/1872977
 // Commands: moveXY(), say(), openDoor(), tipToeXY(), attack()
+// Move to and attack the ogre in front of the archer
+// Free the archer
+// Move/tip-toe to the door near the ogre
+// Tip-toe to the other side and get some room from the ogre for the archer
+// Open fire and kill it.
+// Exit from the exit door
 
 // Initial Code
 
 this.moveXY(4,5);
 this.attack();
-this.moveXY(2, 5);
+this.moveXY(2,5);
 this.openDoor();
 this.say("Follow me");
-this.tipToeXY(7,3);
+this.moveXY(7,5);
+this.tipToe(7,3)
 this.openDoor();
 this.tiptoeXY(1,1);
 this.say("Attack!");
