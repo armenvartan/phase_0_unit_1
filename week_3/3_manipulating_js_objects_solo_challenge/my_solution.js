@@ -1,4 +1,4 @@
-// This is a Solo Challenge. 
+// This is a Solo Challenge.
 
 // There is a section below where you will write your code.
 // Do not alter this object here.
@@ -13,7 +13,7 @@ var terah = {
   eyeColor: "brown"
 }
 /* Pseudocode Section - write pseudocode for each challenge below.
-1. Define a variable adam and use object literal notation to assign this variable 
+1. Define a variable adam and use object literal notation to assign this variable
    the value of a JavaScript Object object with no properties.
 
 2. Give adam a name property with the value "Adam".
@@ -26,16 +26,16 @@ var terah = {
 
 6. Add a spouse property to adam and assign it the value of terah.
 
-7. Add a children property to terah and and use object literal notation to assign 
+7. Add a children property to terah and and use object literal notation to assign
    this variable the value of a JavaScript Object object with no properties
 
-8. Add a carson property to the value of the terah children property and assign it 
+8. Add a carson property to the value of the terah children property and assign it
   the value of an object with the property name with a value of "Carson".
 
-9. Add a carter property to the value of the terah children property and assign it 
+9. Add a carter property to the value of the terah children property and assign it
    the value of an object with the property name with a value of "Carter".
 
-10. Add a colton property to the value of the terah children property and assign it 
+10. Add a colton property to the value of the terah children property and assign it
     the value of an object with the property name with a value of "Colton".
 
 11. Add a children property to adam and assign it the value of terah children.
@@ -45,8 +45,27 @@ var terah = {
 
 // __________________________________________
 // Write your code below.
+var adam = {
+  name: "Adam"
+}
 
+var terah = {
+  name: "Terah",
+  spouse: adam,
+  age: 32,
+  height: 66,
+  weight: 125,
+  hairColor: "brown",
+//  eyeColor: "brown"
+  children: {
+    carson: {name: "Carson"},
+    carter: {name: "Carter"},
+    colton: {name: "Colton"}
+  }
+}
 
+adam.spouse = terah;
+adam.children = terah.children;
 
 
 
@@ -55,12 +74,15 @@ var terah = {
 
 // __________________________________________
 // Reflection: Use the reflection guidelines
-// 
-// 
-// 
-// 
-// 
-// 
+// I didn't know that js is order sensitive. I must have missed it in the stuff
+// I read. That was, hands down, the sole source of my frustrations. I spent around
+// 3-4 hours pulling my hair out trying to pass assertion 3. Once I found out that
+// order matters in js, the rest was easy. I'm feeling very confident about the
+// 'proof' part of the work so far. I still have more syntax to learn, before I can
+// work more quickly (I don't expect to stop using google completely).
+// The level of the problems is still very easy for me. I feel that my focus needs
+// to be on solidifying my syntax more.
+
 
 
 // __________________________________________

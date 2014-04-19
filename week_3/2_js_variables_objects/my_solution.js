@@ -1,13 +1,9 @@
 // I paired by myself on this challenge.
 
 
-
-
 // Pseudocode
 // "assert" secretNumber = 7 and password = "just open the door" allowedIn = false
 // members = [John, xx, xx, Mary]
-//
-//
 
 
 // __________________________________________
@@ -38,10 +34,10 @@ assert(secretNumber, password, allowedIn, members);
 // pretty good about solving it. The most tedious part was definitely the syntax for me. Once
 // I realized this was going to be the problem, I deleted all of my code and started taking it 1 by 1
 // to make sure that the code kept passing. by the time 'password' passed and it prompted me for the boolean,
-// I knew I was a minute from finishing. I enjoyed this as an introduction, This is my first TDD and my 
+// I knew I was a minute from finishing. I enjoyed this as an introduction, This is my first TDD and my
 // what I thought was my first week in JavaScript (turns out I did half the code academy course a few months ago).
 // So I got to push my brain to think in another way without being overwhelmed trying to solve a complicated
-// problem.
+// problem
 
 
 // __________________________________________
